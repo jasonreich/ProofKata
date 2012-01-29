@@ -1,0 +1,23 @@
+Problem: McCarthy and Painter
+=============================
+
+Taken from McCarthy and Painter (1966) Correctness of a compiler for arithmetic
+expressions.
+
+* Define a source language that describe simple arithmetic instructions
+on natural numbers, with variables. E.g.
+
+  (1 + (2 + y) + 4) + x
+
+* Define an evaluator for the source language.
+
+* Define a target language that describes an register machine.
+
+  li 1; stor t0; li 2; stor t1; load x; add t1; add t0; stor t0; li 4;
+  add t0; sto t0; load x; sto t0;
+
+* Define the compiler from source to target.
+
+* Demonstrate the correctness of this compiler.
+
+Solutions given in Agda, Coq and Isabelle/HOL.
