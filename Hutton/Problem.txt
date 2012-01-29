@@ -1,0 +1,22 @@
+Problem: Hutton
+===============
+
+Taken from Graham Hutton's Programming with Haskell.
+
+* Define a source language that describe simple arithmetic instructions
+on natural numbers. E.g.
+
+  (1 + (2 + 3) + 4) + 5
+
+* Define an evaluator for the source language.
+
+* Define a target language that describes a stack machine that can
+sum the top two elements on the stack. E.g.
+
+  push 1; push 2; push 3; sum; sum; push 4; sum; push 5; sum
+
+* Define the compiler from source to target.
+
+* Demonstrate the correctness of this compiler.
+
+Solutions given in Agda and Coq.
