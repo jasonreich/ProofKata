@@ -1,6 +1,10 @@
 Over the last three years, I've played with more theorem provers than
-I can actually remember. As I redescover small examples, I shall put
+I can actually remember. As I rediscover small examples, I shall put
 them up here for posterity.
+
+Please feel free to fork and improve. Just commit back so that I can
+see your interesting interpretations. Also, send me fun proof
+examples!
 
 Included problems;
 * Hutton's arithmetic compiler.
